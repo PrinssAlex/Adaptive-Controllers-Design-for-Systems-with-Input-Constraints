@@ -5,9 +5,9 @@ This repository contains a practical project on **adaptive controller design und
 The core study evaluates how saturation affects tracking, stability/boundedness, and parameter convergence.Especially when persistent excitation (PE) is weak and demonstrates why the Lion MRAC scheme is more robust than a basic gradient MRAC in this setting. 
 
 ## Project scope
-Adaptive controllers often assume the computed control \(u^\*\) can be applied directly, but real actuators saturate: \(u=\mathrm{sat}(u^\*)\). 
+Adaptive controllers often assume the computed control (u*) can be applied directly, but real actuators saturate: u = sat(u*).
 This project studies MRAC performance with explicit saturation constraints and documents simulation results comparing saturated vs unsaturated operation, emphasizing:  
-- Tracking error convergence and bounded signals under saturation (stability/robustness objective of Work 15). 
+- Tracking error convergence and bounded signals under saturation. 
 - Practical limitations on parameter identification when excitation is not persistently rich (parameter convergence vs mere boundedness). 
 - The benefits of the Lion adaptation scheme (dynamic regressor extension + normalization) for handling distortion introduced by saturation. 
 
